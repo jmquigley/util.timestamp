@@ -1,6 +1,6 @@
 {
   "name": "util.timestamp",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "jmquigley <jmquigley@outlook.com>",
   "description": "Generates a string timestamp",
   "private": false,
@@ -17,8 +17,7 @@
   },
   "dependencies": {
     "object-assign": "^4.1.1",
-    "strftime": "^0.10.0",
-    "yargs": "^6.5.0"
+    "strftime": "^0.10.0"
   },
   "devDependencies": {
     "ava": "^0.17.0",
