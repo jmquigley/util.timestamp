@@ -6,9 +6,9 @@ const objectAssign = require('object-assign');
 let dt = require('strftime');
 
 module.exports = function(opts = undefined) {
-    opts = objectAssign({
-        dateFormat: defaultFormat
-    }, opts);
+	opts = objectAssign({
+		dateFormat: defaultFormat
+	}, opts);
 
-    return dt(opts.dateFormat, new Date());
+	return dt(opts.dateFormat, new Date());
 };

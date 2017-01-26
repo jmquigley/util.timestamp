@@ -1,4 +1,4 @@
-# util.timestamp [![Build Status](https://travis-ci.org/jmquigley/util.timestamp.svg?branch=master)](https://travis-ci.org/jmquigley/util.timestamp)
+# util.timestamp [![Build Status](https://travis-ci.org/jmquigley/util.timestamp.svg?branch=master)](https://travis-ci.org/jmquigley/util.timestamp) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo) [![NPM](https://img.shields.io/badge/npm-v0.0.4-blue.svg)](https://www.npmjs.com/package/util.timestamp)
 
 > Generates a string timestamp
 

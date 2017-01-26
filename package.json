@@ -1,70 +1,59 @@
 {
-  "name": "util.timestamp",
-  "version": "0.0.4",
-  "author": "jmquigley <jmquigley@outlook.com>",
-  "description": "Generates a string timestamp",
-  "private": false,
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jmquigley/util.timestamp"
-  },
-  "bugs": {
-    "url": "https://github.com/jmquigley/util.timestamp/issues"
-  },
-  "engines": {
-    "node": ">=6.5"
-  },
-  "dependencies": {
-    "object-assign": "^4.1.1",
-    "strftime": "^0.10.0"
-  },
-  "devDependencies": {
-    "ava": "^0.17.0",
-    "xo": "^0.17.1"
-  },
-  "main": "index.js",
-  "bin": {
-    "timestamp": "./cli.js"
-  },
-  "scripts": {
-    "test": "xo && ava --verbose"
-  },
-  "xo": {
-    "space": 4,
-    "env": {
-      "browser": true,
-      "node": true,
-      "es6": true
-    },
-    "global": [
-      "window",
-      "describe",
-      "it",
-      "JSON"
-    ],
-    "rules": {
-      "import/no-dynamic-require": "off",
-      "import/no-unresolved": "off",
-      "no-unused-vars": "off",
-      "space-before-function-paren": "off",
-      "no-multiple-empty-lines": [
-        "error",
-        {
-          "max": 2,
-          "maxEOF": 1
-        }
-      ],
-      "unicorn/filename-case": [
-        "error",
-        {
-          "case": "snakeCase"
-        }
-      ],
-      "arrow-parens": [
-        "error",
-        "as-needed"
-      ]
-    }
-  }
+	"name": "util.timestamp",
+	"version": "0.0.4",
+	"author": "jmquigley <jmquigley@outlook.com>",
+	"description": "Generates a string timestamp",
+	"private": false,
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jmquigley/util.timestamp"
+	},
+	"bugs": {
+		"url": "https://github.com/jmquigley/util.timestamp/issues"
+	},
+	"engines": {
+		"node": ">=6.5"
+	},
+	"dependencies": {
+		"object-assign": "^4.1.1",
+		"strftime": "^0.10.0"
+	},
+	"devDependencies": {
+		"ava": "^0.17.0",
+		"xo": "^0.17.1"
+	},
+	"main": "index.js",
+	"bin": {
+		"timestamp": "./cli.js"
+	},
+	"scripts": {
+		"test": "xo && ava --verbose"
+	},
+	"xo": {
+		"env": {
+			"browser": true,
+			"node": true,
+			"es6": true
+		},
+		"global": [
+			"window",
+			"describe",
+			"it",
+			"JSON"
+		],
+		"rules": {
+			"space-before-function-paren": "off",
+			"unicorn/filename-case": [
+				"error",
+				{
+					"case": "snakeCase"
+				}
+			],
+			"arrow-parens": [
+				"error",
+				"as-needed"
+			]
+		}
+	}
 }
