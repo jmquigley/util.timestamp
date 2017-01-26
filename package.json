@@ -1,6 +1,6 @@
 {
-  "name": "utli.timestamp",
-  "version": "0.0.1",
+  "name": "util.timestamp",
+  "version": "0.0.2",
   "author": "jmquigley <jmquigley@outlook.com>",
   "description": "Generates a string timestamp",
   "private": false,
