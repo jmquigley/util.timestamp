@@ -20,7 +20,7 @@
     "fs-extra": "^2.0.0",
     "object-assign": "^4.1.1",
     "strftime": "^0.10.0",
-    "util.pkgwrap": "0.0.3",
+    "util.pkgwrap": "0.0.5",
     "util.rstrip": "0.0.5",
     "uuid": "^3.0.1",
     "yargs": "^6.6.0"
