@@ -7,8 +7,11 @@ gulpfile.js
 tsconfig.json
 tslint.json
 
-!*.d.ts
+coverage
+.nyc_output
+.travis.yml
 *.ts
+!*.d.ts
 test.js
 test.d.ts
 
