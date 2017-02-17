@@ -1,7 +1,7 @@
 'use strict';
 
-const test = require('ava');
-const timestamp = require('./index');
+import {test} from 'ava';
+import {timestamp} from './index';
 
 test('Get current timestamp', t => {
 	let dt = timestamp();

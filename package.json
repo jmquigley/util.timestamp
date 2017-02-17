@@ -13,29 +13,36 @@
     "url": "https://github.com/jmquigley/util.timestamp/issues"
   },
   "engines": {
-    "node": ">=6.5"
+    "node": ">=7.4"
   },
   "dependencies": {
+    "@types/fs-extra": "0.0.37",
+    "@types/node": "^7.0.5",
+    "@types/object-assign": "^4.0.30",
+    "@types/strftime": "^0.9.2",
     "expand-home-dir": "0.0.3",
     "fs-extra": "^2.0.0",
     "object-assign": "^4.1.1",
     "strftime": "^0.10.0",
-    "util.pkgwrap": "0.0.5",
+    "util.pkgwrap": "0.0.6",
     "util.rstrip": "0.0.7",
     "uuid": "^3.0.1",
     "yargs": "^6.6.0"
   },
   "devDependencies": {
     "ava": "^0.18.1",
-    "coveralls": "^2.11.15",
+    "coveralls": "^2.11.16",
     "nyc": "^10.1.2",
-    "xo": "^0.17.1"
+    "tslint": "^4.4.2",
+    "typescript": "^2.1.6"
   },
-  "main": "index.js",
+  "main": "./index.js",
+  "types": "./index.d.ts",
   "bin": {
     "timestamp": "./cli.js"
   },
   "scripts": {
+    "build": "./node_modules/.bin/pkgwrap --build",
     "postinstall": "./node_modules/.bin/pkgwrap --postinstall",
     "test": "./node_modules/.bin/pkgwrap --testing",
     "report": "./node_modules/.bin/pkgwrap --reporting",
@@ -49,8 +56,6 @@
     },
     "global": [
       "window",
-      "describe",
-      "it",
       "JSON"
     ],
     "rules": {

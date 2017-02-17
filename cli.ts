@@ -2,6 +2,6 @@
 
 'use strict';
 
-let timestamp = require('./index');
+import {timestamp} from './index';
 
 console.log(timestamp());
