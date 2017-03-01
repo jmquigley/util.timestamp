@@ -1,7 +1,6 @@
 'use strict';
 
 import * as dt from 'strftime';
-import * as objectAssign from 'object-assign';
 
 export interface ITimestampOpts {
 	dateFormat: string;
@@ -10,7 +9,8 @@ export interface ITimestampOpts {
 const defaultFormat: string = '%Y%m%d%H%M%S%L';
 
 export function timestamp(opts?: ITimestampOpts) {
-	opts = objectAssign({
+
+	opts = Object.assign({
 		dateFormat: defaultFormat
 	}, opts);
 

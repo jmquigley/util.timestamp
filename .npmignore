@@ -1,18 +1,21 @@
 node_modules/
-*.log
-*.tgz
 
 test/
-gulpfile.js
 tsconfig.json
 tslint.json
+.travis.yml
+.editorconfig
+.gitignore
+.gitattributes
+
 
 coverage
 .nyc_output
-.travis.yml
 *.ts
 !*.d.ts
 test.js
 test.d.ts
 
 *.js.map
+jsdoc.json
+gulpfile.js
