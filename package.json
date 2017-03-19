@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "strftime": "^0.10.0",
-    "util.pkgwrap": "0.0.17"
+    "util.pkgwrap": "0.0.18"
   },
   "devDependencies": {
     "@types/mocha": "^2.2.40",
