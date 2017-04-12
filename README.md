@@ -1,11 +1,11 @@
-# util.timestamp [![Build Status](https://travis-ci.org/jmquigley/util.timestamp.svg?branch=master)](https://travis-ci.org/jmquigley/util.timestamp) [![NPM](https://img.shields.io/npm/v/util.timestamp.svg)](https://www.npmjs.com/package/util.timestamp) [![Coverage Status](https://coveralls.io/repos/github/jmquigley/util.timestamp/badge.svg?branch=master)](https://coveralls.io/github/jmquigley/util.timestamp?branch=master)
+# util.timestamp [![Build Status](https://travis-ci.org/jmquigley/util.timestamp.svg?branch=master)](https://travis-ci.org/jmquigley/util.timestamp) [tslint code style](https://img.shields.io/badge/code_style-TSlint-5ed9c7.svg)](https://palantir.github.io/tslint/) [![Test Runner](https://img.shields.io/badge/testing-ava-blue.svg)](https://github.com/avajs/ava) [![NPM](https://img.shields.io/npm/v/util.timestamp.svg)](https://www.npmjs.com/package/util.timestamp) [![Coverage Status](https://coveralls.io/repos/github/jmquigley/util.timestamp/badge.svg?branch=master)](https://coveralls.io/github/jmquigley/util.timestamp?branch=master)
 
 > Generates a string timestamp
 
 This module is a thin wrapper on the [strftime](https://github.com/samsonjs/strftime) module to create a simple string timestamp with a consistent format.  It uses the format rule:
 
     %Y%m%d%H%M%S%L
-    
+
 This results in a 17 byte string representing the current timestamp.  e.g.
 
     20170126075705148
@@ -22,6 +22,12 @@ To install as a development dependency with cli:
 $ npm install --save-dev util.timestamp
 ```
 
+To build the app and run all tests:
+```
+$ npm run all
+```
+
+
 ## Usage
 
 There are two ways to use this package:
@@ -34,7 +40,7 @@ There are two ways to use this package:
 The timestamp can be generated from the command line using:
 
     timestamp
-    
+
 This will return the default format above.  This could be used in scripting.
 
 #### Function call
@@ -43,7 +49,7 @@ The default JavaScript call will just return the timestamp format above as a str
 
     const timestamp = require('util.timestamp');
     console.log(timestamp());
-    
+
 The function also has an option to set a format that is acceptable to the [strftime](https://github.com/samsonjs/strftime) library:
 
     const timestamp = require('util.timestamp');
