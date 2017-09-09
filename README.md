@@ -12,19 +12,21 @@ This results in a 17 byte string representing the current timestamp.  e.g.
 
 ## Installation
 
+This module uses [yarn](https://yarnpkg.com/en/) to manage dependencies and run scripts for development.
+
 To install as a global package:
 ```
-$ npm install --global util.timestamp
+$ yarn global add util.timestamp
 ```
 
 To install as a development dependency with cli:
 ```
-$ npm install --save-dev util.timestamp
+$ yarn add --dev util.timestamp
 ```
 
 To build the app and run all tests:
 ```
-$ npm run all
+$ yarn run all
 ```
 
 
