@@ -21,13 +21,14 @@
     "strftime": "^0.10.0"
   },
   "devDependencies": {
-    "@types/node": "^8.0.53",
+    "@types/node": "^8.0.54",
     "@types/strftime": "^0.9.2",
     "ava": "^0.24.0",
     "coveralls": "^3.0.0",
     "nyc": "^11.3.0",
     "tslint": "^5.8.0",
-    "typescript": "^2.6.2"
+    "typescript": "^2.6.2",
+    "util.pkgwrap": "^0.0.88"
   },
   "bin": {
     "timestamp": "./cli.js"
@@ -38,7 +39,6 @@
     "clean": "pkgwrap --clean",
     "coverage": "pkgwrap --coverage",
     "lint": "pkgwrap --lint",
-    "preinstall": "yarn global add util.pkgwrap",
     "prepublishOnly": "yarn run all",
     "report": "pkgwrap --reporting",
     "test": "pkgwrap --testing --ava"
