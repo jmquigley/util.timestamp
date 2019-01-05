@@ -1,6 +1,6 @@
 {
   "name": "util.timestamp",
-  "version": "0.0.37",
+  "version": "0.0.38",
   "author": "jmquigley <jmquigley@outlook.com>",
   "description": "Generates a string timestamp",
   "main": "./index.js",
