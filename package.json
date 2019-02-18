@@ -1,9 +1,9 @@
 {
 	"name": "util.timestamp",
-	"version": "0.0.38",
+	"version": "0.0.39",
 	"author": "jmquigley <jmquigley@outlook.com>",
 	"description": "Generates a string timestamp",
-	"main": "./index.js",
+	"main": "./index.min.js",
 	"types": "./index.d.ts",
 	"bin": {
 		"timestamp": "./cli.js"
@@ -20,8 +20,6 @@
 	"engines": {
 		"node": ">=7.x"
 	},
-	"main": "./index.min.js",
-	"types": "./index.d.ts",
 	"dependencies": {
 		"strftime": "^0.10.0"
 	},
