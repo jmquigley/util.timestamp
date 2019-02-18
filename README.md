@@ -2,11 +2,12 @@
 
 > Generates a string timestamp
 
-[![Build Status](https://travis-ci.org/jmquigley/util.timestamp.svg?branch=master)](https://travis-ci.org/jmquigley/util.timestamp)
-[![tslint code style](https://img.shields.io/badge/code_style-TSlint-5ed9c7.svg)](https://palantir.github.io/tslint/)
-[![Test Runner](https://img.shields.io/badge/testing-jest-blue.svg)](https://facebook.github.io/jest/)
+[![build](https://travis-ci.org/jmquigley/util.timestamp.svg?branch=master)](https://travis-ci.org/jmquigley/util.timestamp)
+[![analysis](https://img.shields.io/badge/analysis-tslint-9cf.svg)](https://palantir.github.io/tslint/)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![testing](https://img.shields.io/badge/testing-jest-blue.svg)](https://facebook.github.io/jest/)
 [![NPM](https://img.shields.io/npm/v/util.timestamp.svg)](https://www.npmjs.com/package/util.timestamp)
-[![Coverage Status](https://coveralls.io/repos/github/jmquigley/util.timestamp/badge.svg?branch=master)](https://coveralls.io/github/jmquigley/util.timestamp?branch=master)
+[![coverage](https://coveralls.io/repos/github/jmquigley/util.timestamp/badge.svg?branch=master)](https://coveralls.io/github/jmquigley/util.timestamp?branch=master)
 
 This module is a thin wrapper on the [strftime](https://github.com/samsonjs/strftime) module to create a simple string timestamp with a consistent format.  It uses the format rule:
 
