@@ -1,6 +1,6 @@
 {
 	"name": "util.timestamp",
-	"version": "0.0.39",
+	"version": "0.0.40",
 	"author": "jmquigley <jmquigley@outlook.com>",
 	"description": "Generates a string timestamp",
 	"private": false,
