@@ -1,5 +1,3 @@
-"use strict";
-
 import * as dt from "strftime";
 
 export interface TimestampOpts {

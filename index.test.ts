@@ -1,6 +1,4 @@
-"use strict";
-
-import {timestamp} from "./index";
+import { timestamp } from "./index";
 
 test("Get current timestamp", () => {
 	const dt = timestamp();
